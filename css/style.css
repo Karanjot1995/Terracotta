@@ -1,0 +1,137 @@
+ .btn{
+ 	border:none;
+ 	background-color: #fff;
+ }
+ .row{
+ 	padding:40px;
+ }
+ .nav{
+ 	display:flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	margin:15px;
+ }
+ .nav a{
+ 	color:black;
+ }
+ .jumbotron{
+ 	background-image:url("https://previews.123rf.com/images/578foot/578foot1408/578foot140800017/30640712-photo-of-paint-brushes-in-a-jar.jpg");
+ 	background-size:100% 100%;
+ 	height:650px;
+ }
+.jumbotron >h1{
+	padding:100px 30px 30px 30px;
+	font-size:130px;
+}
+.jumbotron a{
+  text-decoration:none;
+  color:black;
+  font-size:30px;
+  padding:18px;
+  border:2px solid black;
+
+}
+.thumbnail{
+	border:none;
+	padding:20px;
+
+}
+.caption{
+	padding:100px 35px;
+	
+}
+.container{
+	padding-bottom:60px;
+}
+.caption >a{
+	text-decoration:none;
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin-top:30px;
+    border:2px solid black;
+}
+.container-fluid >.row >.thumbnail{
+	padding:40px;
+}
+.thumbnail p{
+	color:gray;
+}
+.contact{
+	font-size:13px;
+}
+@media all and (max-width:768px){
+	.jumbotron >h1{
+	padding-top:80px;
+	font-size:70px;
+   }
+  .jumbotron a {
+    font-size: 20;
+    padding: 10px;
+  }
+  div.cart.col-sm-3{
+    padding: 0;
+   }
+   .cart .btn{
+    padding: 6px;
+   }
+  .jumbotron{
+	  height:400px;
+   }
+   #arrivals, #stories{
+   	text-align:center
+   }
+   #footer{
+   	text-align:center;
+   }
+   .caption{
+   	padding:20px 30px;
+   }
+}
+@media all and (max-width:500px){
+	body{
+		overflow-x: hidden;
+	}
+  .nav{
+    margin:0px 10px;
+  }
+  .cart a{
+    display: none;
+  }
+  .nav button{
+    font-size:12px!important;
+  }
+	.container-fluid{
+		margin:0;
+		padding:0;
+	}
+	.jumbotron{
+		height:300px;
+	}
+	.jumbotron >h1{
+	padding-top:50px;
+	font-size:40px;
+   }
+   .thumbnail{
+   	padding:20px 0px;
+   }
+   .container-fluid >.row >.thumbnail{
+	padding:20px 0px;
+   }
+  .nav *{
+    padding:0;
+  }
+  .nav .text-right >a{
+    font-size:11px;
+  }
+	.nav h3{
+    padding-bottom: 5px;
+    font-size:18px;
+	}
+	.caption> a{
+   	font-size:12px;
+   }
+   h2{
+   	font-size:20px;
+   }
+}
